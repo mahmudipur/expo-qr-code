@@ -24,6 +24,12 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    IRSans_ul: require("../assets/fonts/IRANSansFaNum-UltraLight.ttf"),
+    IRSans_l: require("../assets/fonts/IRANSansFaNum-Light.ttf"),
+    IRSans_m: require("../assets/fonts/IRANSansFaNum-Medium.ttf"),
+    IRSans: require("../assets/fonts/IRANSansFaNum.ttf"),
+    IRSans_b: require("../assets/fonts/IRANSansFaNum-Bold.ttf"),
+    IRSans_B: require("../assets/fonts/IRANSansFaNum-Black.ttf"),
     ...FontAwesome.font,
   });
 
