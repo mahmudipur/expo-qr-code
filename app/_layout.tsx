@@ -6,7 +6,8 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
 
-import { useColorScheme } from '@/components/useColorScheme';
+import { useColorScheme } from "@/components/useColorScheme";
+import { ActionSheetProvider } from "@expo/react-native-action-sheet";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -48,7 +49,7 @@ export default function RootLayout() {
     return null;
   }
 
-  return <RootLayoutNav />;
+  return <ActionSheetProvider><RootLayoutNav /></ActionSheetProvider>;
 }
 
 function RootLayoutNav() {
