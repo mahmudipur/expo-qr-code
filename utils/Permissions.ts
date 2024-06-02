@@ -6,9 +6,9 @@ interface IPermission {
 
 class Permission {
   protected permissions = [
-    { id: 0, label: "سوپر ادمین", value: "superAdmin" },
-    { id: 1, label: "ادمین", value: "admin" },
-    { id: 2, label: "کاربر معمولی", value: "user" },
+    { id: 0, label: "سازمان ملی مهاجرت", value: "superAdmin" },
+    { id: 1, label: "پلیس فراجا", value: "police" },
+    { id: 2, label: "بانک سپه", value: "bank" },
   ];
 
   constructor() {}
