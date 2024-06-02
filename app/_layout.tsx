@@ -64,6 +64,8 @@ function RootLayoutNav() {
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="QrCodeScanner" options={{ headerShown: false}} />
+        <Stack.Screen name="UserProfile" options={{ headerShown: false, }} />
+        <Stack.Screen name="modal" options={{ presentation: "modal" }} />
       </Stack>
     </ThemeProvider>
   );
