@@ -69,15 +69,13 @@ export const Demo = () => {
   );
 
   return (
-    <Canvas style={{ width, height }}>
+    <Canvas style={{ width, height }} >
       <Vertices
         vertices={vertices}
         indices={indices}
         textures={defaultVertices}
         colors={colors}
       />
-      {/* <Points points={vertices} style="stroke" color="white" strokeWidth={1} />
-      <Triangles vertices={vertices} triangles={triangles} /> */}
     </Canvas>
   );
 };

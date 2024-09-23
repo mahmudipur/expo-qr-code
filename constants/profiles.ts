@@ -1,9 +1,9 @@
 import { TProfile } from "@/utils/Profile";
 
 const person_one: Array<TProfile> = [
-  { label: "نام", value: "محمد", whoCanSee: [0, 1, 2] },
-  { label: "نام خانوادگی", value: "محمودی پور", whoCanSee: [0, 1, 2] },
-  { label: "ملیت", value: "ایرانی", whoCanSee: [0] },
+  { label: "نام", value: "محمد", whoCanSee: [0, 1, 2, 3, 4, 5, 6, 7] },
+  { label: "نام خانوادگی", value: "محمودی پور", whoCanSee: [0, 1, 2, 3, 4, 5, 6, 7] },
+  { label: "ملیت", value: "ایرانی", whoCanSee: [0, 3, 4, 5, 6, 7] },
   { label: "شناسه یکتا", value: "9347654876", whoCanSee: [0, 1, 2] },
   { label: "تردد", value: "از 1403/3/3 تا 1403/6/3 ", whoCanSee: [0, 1] },
   { label: "شهر مبدا", value: "مشهد", whoCanSee: [0, 1] },

@@ -63,6 +63,7 @@ function RootLayoutNav() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="organizations" options={{ headerShown: false}} />
         <Stack.Screen name="QrCodeScanner" options={{ headerShown: false}} />
         <Stack.Screen name="UserProfile" options={{ headerShown: false, }} />
         <Stack.Screen name="modal" options={{ presentation: "modal" }} />
